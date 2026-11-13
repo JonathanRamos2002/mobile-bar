@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Request a quote for your wedding, private celebration, birthday, corporate event, or custom mobile bartending service." />
+  <title>Contact | Midnight Pour</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="custom-navbar" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Midnight<span>Pour</span></a>
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation">☰</button>
+        <ul class="custom-navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="background:linear-gradient(135deg, rgba(53,69,64,0.8), rgba(104,127,122,0.78)), url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat; min-height: 500px;">
+      <div class="container">
+        <div class="hero-copy">
+          <div class="eyebrow">Contact</div>
+          <h1>Let’s plan a bar experience your guests will remember.</h1>
+          <p class="lead">Share your event details and we’ll help shape a package that fits your guest list, timeline, and overall vision.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h3>Book a consultation</h3>
+          <p>We’d love to learn about what you have in mind and help design the right setup for your gathering.</p>
+          <ul>
+            <li>Email: contact@midnightpour.com</li>
+            <li>Phone: (301) 123-4567</li>
+            <li>Service area: Weddings, private events, gatherings, and destination experiences</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name">
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com">
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone number</label>
+              <input id="phone" type="tel" placeholder="(123) 456-7890">
+            </div>
+            <div class="form-field">
+              <label for="date">Event date</label>
+              <input id="date" type="date">
+            </div>
+            <div class="form-field">
+              <label for="location">Event location</label>
+              <input id="location" type="text" placeholder="City or venue">
+            </div>
+            <div class="form-field">
+              <label for="type">Event type</label>
+              <select id="type">
+                <option>Wedding</option>
+                <option>Private party</option>
+                <option>Birthday</option>
+                <option>Corporate event</option>
+                <option>Custom celebration</option>
+              </select>
+            </div>
+            <div class="form-field" style="grid-column:1 / -1;">
+              <label for="guests">Estimated guest count</label>
+              <input id="guests" type="number" min="10" placeholder="e.g. 120">
+            </div>
+            <div class="form-field" style="grid-column:1 / -1;">
+              <label for="details">Additional details</label>
+              <textarea id="details" placeholder="Tell us more about your event, your vision, and the atmosphere you’d like to create."></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Request a quote</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand">Midnight<span>Pour</span></div>
+          <p>We bring experience, style, and warm hospitality to every event.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="blog.html">Gallery</a></li>
+            <li><a href="mailto:hello@midnightpour.com">Email</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Ready to begin?</h4>
+          <p>We’ll help you turn your plans into a smooth, memorable guest experience.</p>
+          <a class="btn btn-secondary" href="mailto:hello@midnightpour.com">Email us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Midnight Pour</span>
+        <span>Crafted cocktails. Memorable moments.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
